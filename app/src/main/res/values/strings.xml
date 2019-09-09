@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">News</string>
+
+    <string name="menu_design">Design</string>
+    <string name="menu_posts">Posts</string>
+
+    <string name="design_label">Test Android</string>
+    <string name="posts_label">Posts</string>
+
+    <string name="design_menu_search">Search</string>
+
+</resources>

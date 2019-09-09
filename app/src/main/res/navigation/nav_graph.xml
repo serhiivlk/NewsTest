@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_design"
+    >
+    <fragment
+        android:id="@+id/nav_design"
+        android:name="com.serhiiv.news.ui.design.DesignFragment"
+        android:label="@string/design_label"
+        tools:layout="@layout/fragment_design"
+        />
+
+    <fragment
+        android:id="@+id/nav_posts"
+        android:name="com.serhiiv.news.ui.posts.PostsFragment"
+        android:label="@string/posts_label"
+        tools:layout="@layout/fragment_posts"
+        />
+</navigation>
